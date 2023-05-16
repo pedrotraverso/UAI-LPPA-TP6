@@ -7,7 +7,7 @@ main {
 }
 
 #date-box {
-    font-family: 'Velino Display Light';
+    font-family: 'Velino Display Book';
     font-size: 12px;
     height: 20px;
     padding: 15px 25px;
@@ -72,7 +72,7 @@ h1 {
 h2 {
     font-family: 'Velino Display Medium';
     font-size: 22px;
-    color: #000000;
+    color:#6e6e6e;
     margin-bottom: 20px;
 }
 
@@ -140,8 +140,8 @@ figure img {
 }
 
 p {
-    font-family: 'Velino Display Medium';
-    font-size: 16px;
+    font-family: 'Velino Display Book';
+    font-size: 18px;
     color: #000000;
 }
 
@@ -161,7 +161,7 @@ p {
 }
 
 .webs p {
-    font-family: 'Velino Display Book';
+    font-family: 'Velino Display Medium';
     font-size: 18px;
     color: #000000;
     margin-bottom: 10px;
@@ -184,7 +184,7 @@ footer {
 }
 
 #articulo-original {
-    font-family: 'Velino Display Light';
+    font-family: 'Velino Display Book';
     font-size: 16px;
     color: #000000;
     text-decoration: none;
@@ -193,7 +193,7 @@ footer {
 
 #copyright {
     margin: 15px;
-    font-family: 'Velino Display Light';
+    font-family: 'Velino Display Book';
     font-size: 12px;
-    color: #000000;
+    color: #ffa500;
 }
