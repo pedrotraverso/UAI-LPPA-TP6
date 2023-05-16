@@ -4,33 +4,28 @@
   MacBook Pro (Retina, Mid 2012) = width: 2880px x height:1800px
  */
 @media only screen and (min-width: 1024px) {
+    body {
+        background-color: #181A1B;
+    }
     main {
         margin: 30px;
     }
     nav {
         height: 50px;
-        border-top: 1px solid #3e3e3e;
-        border-bottom: 1px solid #3e3e3e;
-        margin-top: 2px;
-        padding-left: 30px;
-        font-family: 'Velino Display Medium';
-        background-color: #d8d8d6;
-        display: flex;
-        align-items: center;
-        color: #ffffff;
-    }
-    #menu {
-        filter: invert(100%);
-    }
-    #logo-header {
-        filter: invert(100%);
-    }
-    #logo-box {
-        height: 110px;
+        border-top: 1px solid #faebd7;
+        border-bottom: 1px solid #faebd7;
         padding: 0px 30px;
         display: flex;
         justify-content: center;
         align-items: center;
+        color: #faebd7;
+    }
+    ul a {
+        margin: 0px 20px;
+    }
+    #logo-box {
+        height: 110px;
+        padding: 0px 30px;
     }
     svg {
         height: 80px;
@@ -38,10 +33,55 @@
     #date-box {
         font-size: 12px;
         height: 30px;
-        padding-right: 30px;
+        padding: 15px 30px;
+        color: #faebd7;
+    }
+    #path2 {
+        fill: #faebd7;
+    }
+    h1 {
+        font-size: 48px;
+        color: #faebd7;
+    }
+    h2 {
+        font-size: 26px;
+        color:#faebd7;
+    }
+    h3 {
+        font-size: 22px;
+        color: #faebd7;
     }
     figure img {
         width: 200px;
+    }
+    #nav-2 {
+        display: none;
+    }
+    p {
+        font-size: 18px;
+        color: #faebd7;
+    }
+    .webs a {
+        font-size: 28px;
+        color: #faebd7;
+    }
+    .webs p {
+        font-size: 22px;
+        color: #faebd7;
+    }
+    footer {
+        border-top: 1px solid #faebd7;
+        margin: 2px 10px;
+        height: 50px;
+    }
+    #articulo-original {
+        font-size: 14px;
+        color: #faebd7;
+        margin: 15px;
+    }
+    #copyright {
+        margin: 15px;
+        font-size: 12px;
     }
 }
 
@@ -50,12 +90,84 @@
   screen = B/w 768px x 1024px
  */
 @media only screen and (min-width: 640px) and (max-width: 1023px) {
-    #logo-box {
-        background-color: #cc001b;
-        
+    body {
+        background-color: #181A1B;
     }
-    #suscribite {
-        background-color: #000000;
+    main {
+        margin: 30px;
+    }
+    nav {
+        height: 50px;
+        border-top: 1px solid #faebd7;
+        border-bottom: 1px solid #faebd7;
+        padding: 0px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #faebd7;
+    }
+    ul a {
+        margin: 0px 20px;
+    }
+    #logo-box {
+        height: 110px;
+        padding: 0px 30px;
+    }
+    svg {
+        height: 80px;
+    }
+    #date-box {
+        font-size: 12px;
+        height: 30px;
+        padding: 15px 30px;
+        color: #faebd7;
+    }
+    #path2 {
+        fill: #faebd7;
+    }
+    h1 {
+        font-size: 48px;
+        color: #faebd7;
+    }
+    h2 {
+        font-size: 26px;
+        color:#faebd7;
+    }
+    h3 {
+        font-size: 22px;
+        color: #faebd7;
+    }
+    figure img {
+        width: 200px;
+    }
+    #nav-2 {
+        display: none;
+    }
+    p {
+        font-size: 18px;
+        color: #faebd7;
+    }
+    .webs a {
+        font-size: 28px;
+        color: #faebd7;
+    }
+    .webs p {
+        font-size: 22px;
+        color: #faebd7;
+    }
+    footer {
+        border-top: 1px solid #faebd7;
+        margin: 2px 10px;
+        height: 50px;
+    }
+    #articulo-original {
+        font-size: 14px;
+        color: #faebd7;
+        margin: 15px;
+    }
+    #copyright {
+        margin: 15px;
+        font-size: 12px;
     }
 }
 
@@ -65,5 +177,7 @@
   iPhone 11 Pro Max = width: 1242px x height:2688px
  */
 @media only screen and (max-width: 639px) {
-
+    #nav-1 {
+        display: none;
+    }
 }
