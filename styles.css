@@ -7,13 +7,10 @@ main {
 }
 
 #date-box {
-    font-family: 'Velino Display Book';
-    /* border-bottom: 1px solid #3e3e3e; */
-    font-size: 10px;
+    font-family: 'Velino Display Light';
+    font-size: 12px;
     height: 20px;
     padding: 15px 25px;
-    /* background-color: #ffe8e8; */
-    /* background-color: #3e3e3e; */
     display: flex;
     align-items: center;
     justify-content: right;
@@ -52,7 +49,6 @@ li {
 }
 
 #path1 {
-    /* fill: #d43434; */
     fill: #ffa500;
 }
 
@@ -60,46 +56,13 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* fill: #3e3e3e; */
     fill: #000000;
-}
-
-hr {
-    border: inherit;
-}
-
-hr.simple {
-    content: "";
-    background: #d1d1d1;
-    display: block;
-    height: 1px;
-    width: 100%;
-    margin: 3px 0;
-}
-
-hr.double::before {
-    content: "";
-    background: #d1d1d1;
-    display: block;
-    height: 1px;
-    width: 100%;
-    margin: 3px 0;
-}
-
-hr.double::after {
-    content: "";
-    background: #d1d1d1;
-    display: block;
-    height: 1px;
-    width: 100%;
-    margin: 3px 0;
 }
 
 h1 {
     font-family: 'Velino Display Bold';
     font-size: 40px;
     color: #000000;
-    line-height: 48px;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
@@ -108,19 +71,16 @@ h1 {
 
 h2 {
     font-family: 'Velino Display Medium';
-    font-size: 24px;
+    font-size: 22px;
     color: #000000;
-    line-height: 24px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 h3 {
-    font-family: 'Velino Display Book';
+    font-family: 'Velino Display Medium';
     font-size: 18px;
     color: #000000;
-    line-height: 24px;
-    margin-bottom: 50px;
-    display: flex;
+    margin: 50px 0px;
 }
   
 label {
@@ -202,7 +162,7 @@ p {
 
 .webs p {
     font-family: 'Velino Display Book';
-    font-size: 16px;
+    font-size: 18px;
     color: #000000;
     margin-bottom: 10px;
 }
@@ -225,7 +185,7 @@ footer {
 
 #articulo-original {
     font-family: 'Velino Display Light';
-    font-size: 14px;
+    font-size: 16px;
     color: #000000;
     text-decoration: none;
     margin: 15px;
@@ -234,6 +194,6 @@ footer {
 #copyright {
     margin: 15px;
     font-family: 'Velino Display Light';
-    font-size: 10px;
+    font-size: 12px;
     color: #000000;
 }
