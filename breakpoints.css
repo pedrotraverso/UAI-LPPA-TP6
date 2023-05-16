@@ -4,6 +4,45 @@
   MacBook Pro (Retina, Mid 2012) = width: 2880px x height:1800px
  */
 @media only screen and (min-width: 1024px) {
+    main {
+        margin: 30px;
+    }
+    nav {
+        height: 50px;
+        border-top: 1px solid #3e3e3e;
+        border-bottom: 1px solid #3e3e3e;
+        margin-top: 2px;
+        padding-left: 30px;
+        font-family: 'Velino Display Medium';
+        background-color: #d8d8d6;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+    }
+    #menu {
+        filter: invert(100%);
+    }
+    #logo-header {
+        filter: invert(100%);
+    }
+    #logo-box {
+        height: 110px;
+        padding: 0px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    svg {
+        height: 80px;
+    }
+    #date-box {
+        font-size: 12px;
+        height: 30px;
+        padding-right: 30px;
+    }
+    figure img {
+        width: 200px;
+    }
 }
 
 /*
@@ -26,17 +65,5 @@
   iPhone 11 Pro Max = width: 1242px x height:2688px
  */
 @media only screen and (max-width: 639px) {
-    nav {
-        background-color: #000000;
-        color: #ffffff;
-    }
-    #logo-box {
-        background-color: #cfcfcf;
-    }
-    #menu {
-        filter: invert(100%);
-    }
-    #logo-header {
-        filter: invert(100%);
-    }
+
 }
