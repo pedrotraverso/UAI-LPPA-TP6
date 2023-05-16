@@ -100,32 +100,26 @@ h1 {
     font-size: 40px;
     color: #000000;
     line-height: 48px;
-    margin-bottom: 45px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 h2 {
-    width: 250px;
     font-family: 'Velino Display Medium';
-    font-size: 20px;
+    font-size: 24px;
     color: #000000;
     line-height: 24px;
-    margin-bottom: 45px;
-    /* display: flex; */
-    /* justify-content: flex-start; */
-    /* align-items: center; */
-    text-align: justify;
-    /* justify-content: space-between; */
+    margin-bottom: 50px;
 }
 
 h3 {
     font-family: 'Velino Display Book';
     font-size: 18px;
-    color: #444444;
+    color: #000000;
     line-height: 24px;
-    margin-bottom: 45px;
+    margin-bottom: 50px;
     display: flex;
 }
   
@@ -175,9 +169,10 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
     transform: rotate(45deg) translate(-5.7px, -5.7px);
 }
 
-#h2-figure {
+figure {
+    margin-bottom: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 figure img {
@@ -186,29 +181,30 @@ figure img {
 
 p {
     font-family: 'Velino Display Medium';
-    font-size: 14px;
+    font-size: 16px;
     color: #000000;
-    margin-bottom: 10px;
 }
 
 .webs {
-    font-family: 'Velino Display Light';
-    font-size: 14px;
-    color: #000000;
-    /* line-height: 48px; */
-    margin: 45px 0px;
+    margin: 50px 0px;
 }
 
 .webs a {
     font-family: 'Velino Display Bold';
-    font-size: 14px;
+    font-size: 22px;
     color: #000000;
     text-decoration: none;
-    margin-bottom: 20px;
 }
 
 .webs img {
     margin: 15px 0px;
+}
+
+.webs p {
+    font-family: 'Velino Display Book';
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
 }
 
 footer {
@@ -237,7 +233,7 @@ footer {
 
 #copyright {
     margin: 15px;
-    font-family: 'Velino Display Thin';
+    font-family: 'Velino Display Light';
     font-size: 10px;
     color: #000000;
 }
