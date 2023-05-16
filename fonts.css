@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Velino Display Black Italic';
+    src: url(./fonts/velino-display-black-italic.otf);
+}
+
+@font-face {
+    font-family: 'Velino Display Black';
+    src: url(./fonts/velino-display-black.otf);
+}
+
+@font-face {
+    font-family: 'Velino Display Bold Italic';
+    src: url(./fonts/velino-display-bold-italic.otf);
+}
+
+@font-face {
+    font-family: 'Velino Display Bold';
+    src: url(./fonts/velino-display-bold.otf);
+}
+
+@font-face {
+    font-family: 'Velino Display Book Italic';
+    src: url(./fonts/velino-display-book-italic.otf);
+}
+
+@font-face {
+    font-family: 'Velino Display Book';
+    src: url(./fonts/velino-display-book.otf);
+}
+
+@font-face {
+    font-family: 'Velino Display Light Italic';
+    src: url(./fonts/velino-display-light-italic.otf);
+}
+
+@font-face {
+    font-family: 'Velino Display Light';
+    src: url(./fonts/velino-display-light.otf);
+}
+
+@font-face {
+    font-family: 'Velino Display Medium Italic';
+    src: url(./fonts/velino-display-medium-italic.otf);
+}
+
+@font-face {
+    font-family: 'Velino Display Medium';
+    src: url(./fonts/velino-display-medium.otf);
+}
+
+@font-face {
+    font-family: 'Velino Display Thin Italic';
+    src: url(./fonts/velino-display-thin-italic.otf);
+}
+
+@font-face {
+    font-family: 'Velino Display Thin';
+    src: url(./fonts/velino-display-thin.otf);
+}
