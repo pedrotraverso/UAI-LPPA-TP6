@@ -3,26 +3,26 @@ body {
 }
 
 main {
-    margin: 20px;
+    margin: 25px;
 }
 
 #date-box {
     font-family: 'Velino Display Book';
     /* border-bottom: 1px solid #3e3e3e; */
-    font-size: 8px;
+    font-size: 10px;
     height: 20px;
-    padding: 15px 20px;
+    padding: 15px 25px;
     /* background-color: #ffe8e8; */
     /* background-color: #3e3e3e; */
     display: flex;
     align-items: center;
     justify-content: right;
-    color: #3e3e3e;
+    color: #000000;
 }
 
 #logo-box {
     height: 90px;
-    padding: 0px 30px;
+    padding: 0px 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,12 +30,13 @@ main {
 
 nav {
     height: 50px;
-    border-top: 1px solid #3e3e3e;
-    border-bottom: 1px solid #3e3e3e;
-    margin-top: 2px;
-    padding: 0px 20px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    margin: 2px 10px;
+    padding: 0px 15px;
     font-family: 'Velino Display Medium';
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     color: #ffffff;
 }
@@ -51,14 +52,16 @@ li {
 }
 
 #path1 {
-    fill: #d43434;
+    /* fill: #d43434; */
+    fill: #ffa500;
 }
 
 #path2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    fill: #3e3e3e;
+    /* fill: #3e3e3e; */
+    fill: #000000;
 }
 
 hr {
@@ -93,7 +96,8 @@ hr.double::after {
 }
 
 h1 {
-    font: 40px 'Velino Display Book';
+    font-family: 'Velino Display Bold';
+    font-size: 40px;
     color: #000000;
     line-height: 48px;
     margin-bottom: 45px;
@@ -103,12 +107,13 @@ h1 {
 }
 
 h2 {
-    width: 320px;
-    font: 16px 'Velino Display Book';
-    color: #888888;
+    width: 250px;
+    font-family: 'Velino Display Medium';
+    font-size: 20px;
+    color: #000000;
     line-height: 24px;
     margin-bottom: 45px;
-    display: flex;
+    /* display: flex; */
     /* justify-content: flex-start; */
     /* align-items: center; */
     text-align: justify;
@@ -116,14 +121,12 @@ h2 {
 }
 
 h3 {
-    font: 18px 'Velino Display Medium';
-    color: #888888;
+    font-family: 'Velino Display Book';
+    font-size: 18px;
+    color: #444444;
     line-height: 24px;
     margin-bottom: 45px;
     display: flex;
-    /* justify-content: flex-start; */
-    /* align-items: center; */
-    float: left;
 }
   
 label {
@@ -134,7 +137,7 @@ label {
 }
   
 label span {
-    background: #3e3e3e;
+    background: #000000;
     border-radius: 10px;
     height: 4px;
     margin: 2px 0;
@@ -177,12 +180,64 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
     justify-content: space-between;
 }
 
-figure {
-    /* padding-top: 50px;
-    display: flex; */
-    /* justify-content: space-around; */
+figure img {
+    width: 150px;
 }
 
-figure img {
-    width: 100px;
+p {
+    font-family: 'Velino Display Medium';
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.webs {
+    font-family: 'Velino Display Light';
+    font-size: 14px;
+    color: #000000;
+    /* line-height: 48px; */
+    margin: 45px 0px;
+}
+
+.webs a {
+    font-family: 'Velino Display Bold';
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.webs img {
+    margin: 15px 0px;
+}
+
+footer {
+    border-top: 1px solid #000000;
+    margin: 2px 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#articulo-original::before {
+    content: "•";
+    display: inline-block;
+    transform: scale(1.2);
+    margin-right: 5px;
+}
+
+#articulo-original {
+    font-family: 'Velino Display Light';
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    margin: 15px;
+}
+
+#copyright {
+    margin: 15px;
+    font-family: 'Velino Display Thin';
+    font-size: 10px;
+    color: #000000;
 }
